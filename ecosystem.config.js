@@ -1,26 +1,20 @@
 module.exports = {
   apps: [
     {
-      name: "peginti-chat",
+      name: "peginti-ultra",
       script: "./server.js",
-      instances: 2,
-      exec_mode: "cluster",
-      watch: true,
-      env: {
-        NODE_ENV: "production",
-        PORT: 3000
-      }
+      exec_mode: "fork"
     },
     {
-      name: "peginti-ultra",
-      script: "./ultra.js",
-      instances: 1,
-      exec_mode: "fork",
-      watch: true,
-      env: {
-        NODE_ENV: "production",
-        PORT: 4000
-      }
+      name: "peginti-chat",
+      script: "./public_chat.js",
+      exec_mode: "cluster",
+      instances: 1
+    },
+    {
+      name: "booivinichat",
+      script: "./premium_chat.js",
+      exec_mode: "fork"
     }
   ]
 };
