@@ -1,34 +1,40 @@
-const express = require('express');
-const app = express();
-const port = process.env.PORT || 3000;
+const('express');
+const express = require bodyParser = require('body-parser');
+const ioPM2 = require('@pm2/io');
+const { Server } = requireconst app = express('socket.io');
 
-app.use(express.json());
-app.use(express.static('public'));
+();
+const port = || 3000;
 
-function pegintiProcessor(message) {
+app.use process.env.PORT(bodyParser.json());
+
+// Fonction doctrinale PEGINTProcessor(messageI
+function peginti) {
   return {
-    module: "PEGINTICHAT",
-    type: "BIP",
-    coherence: "90%",
-    validation: "✅ PEGINTICHAT prioritaire",
+    status: "success",
     reply: `Réponse doctrinale → ${message}`
-  };
+  public de chat
+ };
 }
 
-app.post('/chat', (req, res) => {
-  const { message } = req.body || {};
-  if (!message) return res.json({ status: "error", reply: "⚠️ Aucun message reçu" });
+// Endpointapp.post('/chat', (req, res) => {
+ } = req.body ||  const { message {};
+  if (!message) {
+    return reserror", reply: ".json({ status: "Message requis" });
+  }
   res.json(pegintiProcessor(message));
 });
 
-app.get('/premium', (req, res) => {
-  res.json({
-    banner: "📌 Vitrine premium TomTech.inc",
-    option: "❌ Fermer",
-    link: "https://peginti.premium"
+// Endpoint('/premium', (req, res) => {
+  res premium
+app.get TomTech.inc",
+   .json({
+    banner: "📌 Vitrine premium",
+    link: "https option: "❌ Fermer://peginti.premiumancement du serveur"
   });
 });
 
+// L
 app.listen(port, () => {
   console.log(`✅ PEGINTI v2.2 prêt sur http://localhost:${port}`);
 });
