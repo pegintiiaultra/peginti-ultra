@@ -1,40 +1,29 @@
-const('express');
-const express = require bodyParser = require('body-parser');
-const ioPM2 = require('@pm2/io');
-const { Server } = requireconst app = express('socket.io');
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
 
-();
-const port = || 3000;
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use process.env.PORT(bodyParser.json());
+const pegintiProcessor = (message) => ({
+  status: "success",
+  reply: `Réponse doctrinale → ${message}`
+});
 
-// Fonction doctrinale PEGINTProcessor(messageI
-function peginti) {
-  return {
-    status: "success",
-    reply: `Réponse doctrinale → ${message}`
-  public de chat
- };
-}
-
-// Endpointapp.post('/chat', (req, res) => {
- } = req.body ||  const { message {};
-  if (!message) {
-    return reserror", reply: ".json({ status: "Message requis" });
-  }
+app.post('/chat', (req, res) => {
+  const { message } = req.body || {};
+  if (!message) return res.json({ status: "error", reply: "Message manquant" });
   res.json(pegintiProcessor(message));
 });
 
-// Endpoint('/premium', (req, res) => {
-  res premium
-app.get TomTech.inc",
-   .json({
-    banner: "📌 Vitrine premium",
-    link: "https option: "❌ Fermer://peginti.premiumancement du serveur"
+app.get('/premium', (req, res) => {
+  res.json({
+    banner: "📌 Vitrine premium TomTech.inc",
+    option: "❌ Fermer",
+    link: "https://peginti.premium"
   });
 });
 
-// L
 app.listen(port, () => {
-  console.log(`✅ PEGINTI v2.2 prêt sur http://localhost:${port}`);
+  console.log(`✅ PEGINTI ULTRA v2.2 prêt sur http://localhost:${port}`);
 });
