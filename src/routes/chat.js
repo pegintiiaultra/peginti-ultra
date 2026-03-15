@@ -1,14 +1,23 @@
 const express = require('express');
 const router = express.Router();
 
+// Chat Bo'oivini souverain (FIX req.body.message)
 router.post('/souverain', (req, res) => {
+  const message = req.body?.message || 'Message par défaut';
+  
+  if (!req.body || !req.body.message) {
+    return res.status(400).json({error: 'Message requis'});
+  }
+
+  // Réponse Bo'oivini métaphorique
   res.json({
-    status: '🧠 BO\'OIVINI SOUVERAIN ACTIVÉ',
-    message: req.body.message || 'Filtre ultra-rapide OK',
-    score: 0.95,
-    timestamp: new Date().toISOString()
+    reponse: `🧠 BO'OIVINI analyse: "${message}"`,
+    meta: {
+      coton: "purete",
+      baobab: "force", 
+      eaudesource: "clarte"
+    }
   });
 });
 
-router.get('/', (req, res) => res.json({ service: 'PEGINTI-CHAT IA' }));
 module.exports = router;

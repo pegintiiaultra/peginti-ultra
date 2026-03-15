@@ -1,0 +1,7 @@
+.cloudflared/
+config.yml
+*.json
+.env
+node_modules/
+peginti.js.backup
+peginti-ultra/
