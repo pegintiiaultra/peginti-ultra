@@ -1,157 +1,80 @@
-# 🧠 PEGINTI‑ULTRA — Version Professionnelle & Commerciale
-Plateforme IA premium de TomTech.inc — Déploiement officiel, souverain et sécurisé.
+# PEGINTICHAT — Vitrine Publique (MIT)
 
-PEGINTI‑ULTRA est la version **professionnelle, stable et commercialisable** de l’écosystème PEGINTI.  
-Elle constitue la base technique destinée aux entreprises, institutions et organisations souhaitant intégrer une **IA souveraine, performante et personnalisable**.
+PEGINTICHAT est la vitrine publique du système PEGINTI.  
+Il représente l’hémisphère **GAUCHE** d’un cerveau binaural, offrant une interface communautaire stable, accessible et sécurisée.
 
----
-
-# 🧩 Positionnement dans l’écosystème PEGINTI
-
-## 🔵 BO’OIVINI — Super Cerveau Central (Original)
-Intelligence suprême de PEGINTI.  
-Appartient exclusivement à TomTech.inc.  
-Ne quitte jamais l’infrastructure interne.
-
-Rôles :
-- Gouvernance IA  
-- Reproduction contrôlée des copies PEGINTI  
-- Stabilisation doctrinale  
-- Génération des modules officiels  
-- Assistance interne au fondateur  
+Cette version publique est distribuée sous **licence MIT**, mais ne contient **aucune structure interne**, aucun module sensible, et ne donne pas accès au noyau premium ni au cerveau central.
 
 ---
 
-## 🟣 BO’OIVINICHAT — Vitrine Premium
-Chatbot premium de TomTech.inc.  
-Interface commerciale et professionnelle.
+## 🌍 Présentation
 
-Rôles :
-- Présentation des services premium  
-- Gestion clientèle  
-- Accompagnement des entreprises  
-- Démonstration de la puissance PEGINTI  
+PEGINTICHAT fournit :
 
----
-
-## 🟡 PEGINTICHAT — Version publique open‑source
-Chatbot communautaire, gratuit, éducatif.
-
-Rôles :
-- Recherche  
-- Éducation  
-- Démonstrations publiques  
-- Projets légers  
+- une interface publique simple et accessible  
+- une logique institutionnelle cohérente  
+- une séparation nette entre **public** et **premium**  
+- une architecture souveraine  
+- une stabilité garantie par un moteur interne non exposé  
 
 ---
 
-## 🟣 PEGINTI‑ULTRA — Version Professionnelle & Commerciale
-**Ton dépôt actuel.**
+## 🔌 Endpoints Publics
 
-Rôles :
-- Déploiement stable  
-- Hébergement sécurisé  
-- API professionnelle  
-- Intégration PM2 + Cloudflare Tunnel  
-- Base vendable pour les entreprises  
-- Version calibrée pour la production  
+### `POST /chat/public`
+Envoie un message et reçoit une réponse publique limitée.
+
+### `GET /status`
+Retourne l’état du service.
 
 ---
 
-# ⚙️ Fonctionnalités principales
-- Serveur Node.js optimisé  
-- API conversationnelle avancée  
-- Authentification JWT  
-- Routes professionnelles (auth, chat, vpn)  
-- Déploiement PM2  
-- Tunnel Cloudflare sécurisé (HTTPS automatique)  
-- Mode test avec limitation d’usage  
-- Architecture modulaire et extensible  
+## 🧠 Architecture (version publique)
+
+PEGINTICHAT fonctionne comme **noyau public** d’un système à deux hémisphères.  
+Il ne contient **aucune logique interne sensible** et ne révèle pas le fonctionnement du noyau premium ni du cerveau central.
 
 ---
 
-# 🏗️ Architecture technique
-| Composant | Rôle |
-|----------|------|
-| Node.js | Serveur principal |
-| Express.js | API HTTP |
-| JWT | Authentification sécurisée |
-| PM2 | Supervision & redémarrage automatique |
-| Cloudflare Tunnel | HTTPS sans VPS |
-| MIRAP Phase 1 | Cadre doctrinal IA |
-| Routes modulaires | auth, chat, vpn |
+## 🔒 Sécurité
+
+- Aucun module interne n’est exposé  
+- Aucun fichier stratégique n’est rendu public  
+- Le noyau premium reste totalement isolé  
+- Le cerveau central n’est jamais accessible depuis la vitrine publique  
 
 ---
 
-# 🚀 Déploiement professionnel
+## 🚀 Déploiement
 
-### Lancer l’application
-\`\`\`bash
-pm2 start ecosystem.config.js
-pm2 save
-\`\`\`
+PEGINTICHAT fonctionne avec :
 
-### Relancer après redémarrage
-\`\`\`bash
-pm2 resurrect
-\`\`\`
-
-### Vérifier l’état
-\`\`\`bash
-pm2 list
-\`\`\`
+- Node.js  
+- Express  
+- PM2  
+- Cloudflare Tunnel (optionnel)
 
 ---
 
-# 🔐 Sécurité
-- HTTPS via Cloudflare  
-- Protection des clés API  
-- Sessions JWT sécurisées  
-- Architecture conforme à la doctrine PEGINTI  
+## 📄 Licence MIT
 
----
+Copyright (c) 2026 TomTech.
 
-# 🧪 Mode Test — Limitation d’usage (Modulable)
-PEGINTI‑ULTRA inclut un mode test permettant de limiter :
-- le nombre de requêtes par utilisateur  
-- la durée d’accès  
-- l’utilisation via jetons d’accès  
+Permission is hereby granted, free of charge, to any person obtaining a copy  
+of this software and associated documentation files (the "Software"), to deal  
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
 
-Idéal pour :
-- testeurs  
-- pré‑lancements  
-- validations techniques  
+The above copyright notice and this permission notice shall be included in  
+all copies or substantial portions of the Software.
 
----
-
-# 💼 Usage commercial (Modulable)
-PEGINTI‑ULTRA peut être commercialisé via :
-- Chariow (plateforme camerounaise)  
-- Mobile Money (MTN, Orange)  
-- Stripe / PayPal (clients internationaux)  
-- Contrats premium TomTech.inc  
-
----
-
-# 🌍 Vision PEGINTI
-- Souveraineté numérique africaine  
-- Standards africains en IA  
-- Solutions reproductibles et traçables  
-- Harmonisation culture & technologie  
-- Gouvernance centralisée par BO’OIVINI  
-
----
-
-# 📞 Contact professionnel
-**Fondateur :** TOMO OMBEDE BARNABÉ BERTRAND  
-**Entreprise :** TomTech.inc  
-**Localisation :** Yaoundé II SOA, Cameroun  
-**Email :** bertrandtomo7@gmail.com  
-**WhatsApp :** +237 691482453  
-
----
-
-# 📄 Licence
-Version commerciale — droits réservés TomTech.inc.  
-Voir fichier LICENSE pour les conditions d’utilisation.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
+THE SOFTWARE.
 
